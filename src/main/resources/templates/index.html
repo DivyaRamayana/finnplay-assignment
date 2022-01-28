@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="origin-when-crossorigin" id="meta_referrer">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+	<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+  		<ul class="nav justify-content-center">
+  			<li class="nav-item">
+    			<a class="nav-link active" th:href="@{/}">Home</a>
+  			</li>
+  			<li class="nav-item">
+    			<a class="nav-link" th:href="@{/register}">Register</a>
+  			</li>
+  			<li class="nav-item">
+    			<a class="nav-link" th:href="@{/login}">Login</a>
+  			</li>
+  			
+  			
+		</ul>
+  	</nav>
+	<div class="container text-center my-5">
+		<h1 class="">User Registration App - Finnplay assignment</h1>
+	</div>
+</body>
+</html>
