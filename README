@@ -1,0 +1,17 @@
+##How to run the application/Docker container?##
+1. Install MySQL  Workbench
+
+2. Pull the image from Docker hub.
+docker pull 7396898654/finnplay_assignment:firstversion
+
+3. Run the pulled image as a container.
+docker run 7396898654/finnplay_assignment:firstversion
+
+##Ballpark estimation of assignment completion##
+1. Understanding of requirement =:  1 hour
+2. Planning (Project structure, API methods) =: 3 hour
+3. Development =: 8 hours
+4. Testing =: 6 hours
+5. Dockerize the Project =: 16 hours [I had issue while dockerizing the project, it took more time to analyse the work on the error]
+**Worked 5 hours each day to complete assignment**
+
